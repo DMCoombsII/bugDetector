@@ -1,0 +1,38 @@
+.loginBG{
+    width: 100vw;
+    height: 105vh;
+    background: url('../../images/road.jpeg');
+    background-size: cover;
+    margin-left: -20.6vw;
+    margin-top: -27px;
+    background-color: rgba(0, 0, 0, 0.339);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    position: absolute;
+}
+
+.login-panel{
+    background-color: rgba(18, 101, 34, 0.575);
+    width: 30vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 35vh auto;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-pannel h1{
+    width: 100%;
+}
+
+.login-panel input{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    padding-left: 5px;
+    display: flex;
+}

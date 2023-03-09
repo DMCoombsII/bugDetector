@@ -1,0 +1,16 @@
+html{
+    margin-left: 20vw;
+    color: black;
+}
+button{
+    background-color: #ef6c57;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+    font: normal bold 18px "Open Sans", sans-serif;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: #9c3829;
+    transition: all 0.3s;
+}
