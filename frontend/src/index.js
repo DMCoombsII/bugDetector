@@ -5,6 +5,7 @@ import {configureStore,combineReducers} from '@reduxjs/toolkit'
 import App from './App';
 import {createRoot} from 'react-dom/client'
 
+
 //reducers
 import authReducer from './controllers/redux/bugSlice'
 import bugReducer from './controllers/redux/bugSlice'
