@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import {useDispatch,useSelector} from 'react-redux'
 import {getBugs} from '../../controllers/redux/bugSlice'
 import BugCard from '../Bug Card/bugCard'
+
 export default()=>{
     const dispatch = useDispatch();
     const {bugs} = useSelector(state=>state);
@@ -12,7 +13,7 @@ export default()=>{
     return(
         <div className='page-container'>
             {bugs.map((bug,key)=>(
-                <BugCard key={key} props={bug} />
+                <BugCard key={key} bug={bug} />
             ))}
         </div>
     )

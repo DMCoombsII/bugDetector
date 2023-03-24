@@ -7,13 +7,13 @@ import {createRoot} from 'react-dom/client'
 
 
 //reducers
-import authReducer from './controllers/redux/bugSlice'
+import authReducer from './controllers/redux/authSlice'
 import bugReducer from './controllers/redux/bugSlice'
 import userReducer from './controllers/redux/userSlice'
 
 const reducer = combineReducers({
     auth:authReducer,
-    bug:bugReducer,
+    bugs:bugReducer,
     user:userReducer,
 })
 
