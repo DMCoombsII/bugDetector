@@ -8,7 +8,7 @@ export default (props)=>{
     const {level,color}= PriorityController(priority);
 
     function Clicked(){
-        props.clicked(props.name)
+        props.clicked(name)
     }
 
     return(

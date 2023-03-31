@@ -13,7 +13,7 @@ function App() {
     <>
     <Sidebar />
     <Routes>
-        <Route path="/viewbugs"><ViewBugPage /></Route>
+        <Route path="/viewbugs" element={<ViewBugPage/>} />
     </Routes>
     </>
     }
