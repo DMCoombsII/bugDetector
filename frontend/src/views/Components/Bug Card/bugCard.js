@@ -1,6 +1,6 @@
 import React from 'react'
 import './bugCard.css'
-import PriorityController from '../../controllers/priorityController'
+import PriorityController from '../../../controllers/priorityController'
 
 
 export default (props)=>{

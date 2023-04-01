@@ -1,7 +1,7 @@
 .loginBG{
     width: 100vw;
     height: 105vh;
-    background: url('../../images/road.jpeg');
+    background: url('../../../images/road.jpeg');
     background-size: cover;
     margin-left: -20.6vw;
     margin-top: -27px;
